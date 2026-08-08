@@ -28,9 +28,10 @@ Soy un ingeniero mecatrónico que vive en la intersección entre el hardware rob
 * Implementé **LiDAR** y redes neuronales para clasificar fardos de azúcar en tiempo real.
 * Integración con manipuladores robóticos para automatizar líneas de producción críticas.
 
-### ⚡ Hackathon EPM - Predicción de Consumo
+### ⚡ Hackathon EPM - Predictor de Consumo en Electroválvulas
 *Series temporales y eficiencia hídrica.*
 * Modelado predictivo para el consumo en electroválvulas, optimizando el uso del recurso.
+* Repo: [github.com/XergonMaster/HakatonEPM](https://github.com/XergonMaster/HakatonEPM)
 
 ### 🦾 ARPED: Mis Raíces
 *Asistente Robótico para Personas con Discapacidad.*
@@ -41,9 +42,19 @@ Soy un ingeniero mecatrónico que vive en la intersección entre el hardware rob
 * Ensamble mecánico, integración de electrónica y calibración de firmware.
 * Usada para prototipado rápido de piezas de Janus y otros proyectos.
 
-### 🏍️ Encendido Inteligente para Motocicleta
-*Modificación de mi Pulsar 180 con control desde el celular.*
-* Sistema de encendido remoto vía app + tacómetro digital circular diseñado a medida.
+---
+
+## 🎓 Tesis Académicas
+
+### ✈️ Modelado Dinámico de un Motor Turbofán de un Eje
+*Tesis laureada — Universidad EIA.*
+* Modelo dinámico no lineal con simulación en tiempo real y app interactiva en MATLAB App Designer.
+* App: [MATLAB File Exchange — Dynamic Turbofan Model](https://la.mathworks.com/matlabcentral/fileexchange/154607-dynamic-turbofan-model)
+
+### 🚗 Guía de Control ROS2 para Dirección Ackermann
+*Tesis — Universidad EIA.*
+* Framework de referencia para controlar robots con dirección tipo Ackermann usando `ros2_control`.
+* Repo: [github.com/XergonMaster/ros2_control_guide](https://github.com/XergonMaster/ros2_control_guide)
 
 ---
 
