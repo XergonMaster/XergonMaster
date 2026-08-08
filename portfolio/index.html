@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>David Salazar Durante — Robotics & Backend Engineer</title>
+<meta name="description" content="Ingeniero Mecatrónico especializado en robótica autónoma, ROS2, percepción 3D e integración backend. Creador de Janus, robot móvil comercial.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise-bg"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo">DS<span>_</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">Sobre mí</a>
+      <a href="#projects">Proyectos</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experiencia</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+    <a class="cv-btn" href="../CV_David_Salazar_EN.docx" download>Descargar CV</a>
+    <button class="burger" id="burger" aria-label="Menú">☰</button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Mechatronic Engineer · Robotics Architect</p>
+        <h1>Construyo sistemas que <span class="highlight">se mueven, ven y deciden</span> por sí mismos.</h1>
+        <p class="hero-sub">Diseño robots autónomos, pipelines de percepción 3D y backends de alto rendimiento — desde el firmware hasta la nube. Fundador de <strong>Janus</strong>, plataforma robótica comercial.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+          <a href="#contact" class="btn btn-ghost">Hablemos</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>4+</strong><span>años en robótica</span></div>
+          <div><strong>40%</strong><span>mejora en sistemas RFID</span></div>
+          <div><strong>40</strong><span>personas lideradas (URC)</span></div>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/me.jpeg" alt="David Salazar Durante" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title"><span>01.</span> Sobre mí</h2>
+    <div class="about-grid">
+      <p class="about-text">
+        Soy Ingeniero Mecatrónico egresado de la <strong>Universidad EIA</strong>, enfocado en la intersección
+        entre robótica, percepción 3D e ingeniería de software. Mi trabajo abarca desde optimizar algoritmos
+        de backend en tiempo real hasta liderar la navegación autónoma de un rover en el desierto de Utah.
+        Actualmente dirijo <strong>Janus</strong>, mi propio emprendimiento de robótica móvil, y sigo construyendo
+        hardware con mis manos — desde una impresora 3D custom hasta el sistema de encendido inteligente de mi moto.
+      </p>
+      <ul class="about-facts">
+        <li>🎓 Ingeniería Mecatrónica — Universidad EIA (2019–2025)</li>
+        <li>🏆 Tesis laureada: Modelado Dinámico de Turbofán</li>
+        <li>🛰️ Líder de programación — University Rover Challenge (Utah, USA)</li>
+        <li>🚀 Fundador — Janus Robotics (RaaS)</li>
+        <li>🌎 Español nativo · Inglés B2 · Francés A2</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title"><span>02.</span> Proyectos destacados</h2>
+
+    <div class="projects-grid">
+      <article class="project-card featured">
+        <div class="project-tag">Emprendimiento propio</div>
+        <h3>Janus — Robótica Móvil Comercial</h3>
+        <p>Plataforma robótica autónoma para publicidad BTL y servicios comerciales. Hardware bajo economía circular
+        (baterías automotrices reacondicionadas), cómputo en ASUS NUC 13 Pro sobre ROS2/Ubuntu, y analítica visual
+        con IA para medir atención del público. MVP funcional, premiado por "Semilla Verde", modelo de negocio RaaS.</p>
+        <div class="project-stack">
+          <span>ROS2</span><span>Ubuntu</span><span>Computer Vision</span><span>SSH/Networking</span><span>RaaS</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-tag">University Rover Challenge</div>
+        <h3>Rover Autónomo "Tatacoa"</h3>
+        <p>Líder de programación de un equipo de 40 personas. Arquitecté el stack de navegación autónoma (SLAM,
+        planeación de trayectorias, control reactivo) para recorrer +1km de terreno no estructurado sin
+        intervención humana, y los protocolos de teleoperación de largo alcance.</p>
+        <div class="project-stack">
+          <span>ROS</span><span>Python</span><span>C++</span><span>SLAM</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-tag">Manuelita S.A.</div>
+        <h3>Percepción 3D para Estimación de Biomasa</h3>
+        <p>Pipeline completo de percepción 3D con LiDAR y redes neuronales bajo ROS2 para reconstrucción
+        volumétrica y clasificación automática de caña de azúcar, integrado con manipuladores robóticos en línea
+        de producción industrial.</p>
+        <div class="project-stack">
+          <span>ROS2</span><span>LiDAR</span><span>PyTorch</span><span>Robótica industrial</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-tag">Tag Control</div>
+        <h3>Backend RFID en Tiempo Real</h3>
+        <p>Backend con FastAPI para logística de inventario RFID en tiempo real. Rediseño de la arquitectura
+        hardware-software con +40% de mejora en frecuencia de lectura, y optimización de algoritmos UHF
+        críticos a menos de 1 segundo de procesamiento.</p>
+        <div class="project-stack">
+          <span>FastAPI</span><span>Python</span><span>RFID/IoT</span><span>ERP Integration</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-tag">Hardware propio</div>
+        <h3>Impresora 3D Custom</h3>
+        <p>Diseño y construcción de una impresora 3D completamente personalizada — ensamble mecánico,
+        integración de electrónica y calibración de firmware. Usada para prototipado rápido de piezas de
+        Janus y otros proyectos de hardware.</p>
+        <div class="project-stack">
+          <span>Diseño mecánico</span><span>Electrónica</span><span>Firmware</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-tag">Proyecto personal</div>
+        <h3>Encendido Inteligente para Motocicleta</h3>
+        <p>Modificación de una Pulsar 180 con sistema de encendido controlado desde el celular y tacómetro
+        digital circular diseñado a medida — hardware embebido conectado a un sistema de control remoto.</p>
+        <div class="project-stack">
+          <span>IoT</span><span>Electrónica automotriz</span><span>App control</span>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-tag">Software independiente</div>
+        <h3>STRUCTURA — PWA de Gestión de Obras</h3>
+        <p>Progressive Web App para gestión de roles, flujos de trabajo y seguimiento de proyectos de
+        construcción. Incluye sistemas automatizados de rastreo y filtrado de ofertas laborales en
+        backend y robótica.</p>
+        <div class="project-stack">
+          <span>PWA</span><span>Full Stack</span><span>Automatización</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title"><span>03.</span> Stack técnico</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h4>Robótica & Autonomía</h4>
+        <p>ROS / ROS2, SLAM, navegación autónoma, LiDAR, sensor fusion</p>
+      </div>
+      <div class="skill-card">
+        <h4>Backend & APIs</h4>
+        <p>Python, FastAPI, Django REST, PostgreSQL, MySQL, Docker</p>
+      </div>
+      <div class="skill-card">
+        <h4>IA & Visión</h4>
+        <p>PyTorch, redes neuronales, clasificación, series temporales, agentes de IA</p>
+      </div>
+      <div class="skill-card">
+        <h4>Hardware & Electrónica</h4>
+        <p>Arduino, IoT, diseño de baterías, prototipado, impresión 3D</p>
+      </div>
+      <div class="skill-card">
+        <h4>Lenguajes</h4>
+        <p>Python, C++, C#, JavaScript/TypeScript, Java</p>
+      </div>
+      <div class="skill-card">
+        <h4>Simulación</h4>
+        <p>MATLAB, Simulink — tesis laureada en modelado de turbofán</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2 class="section-title"><span>04.</span> Experiencia</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-date">Oct 2025 — Presente</div>
+        <div class="timeline-content">
+          <h4>Backend Developer & Systems Integrator</h4>
+          <p>Tag Control · Medellín, Colombia (Híbrido)</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Ene — Jun 2025</div>
+        <div class="timeline-content">
+          <h4>3D Perception Engineer (Freelance)</h4>
+          <p>Manuelita S.A. · Remoto / Campo</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Sep 2023 — Nov 2024</div>
+        <div class="timeline-content">
+          <h4>Research Assistant — Robótica Móvil</h4>
+          <p>Universidad EIA · Medellín, Colombia</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-date">Ene — Sep 2023</div>
+        <div class="timeline-content">
+          <h4>Robotics Engineer (Prácticas)</h4>
+          <p>Automate Col · Rionegro, Colombia</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title"><span>05.</span> Hablemos</h2>
+    <p class="contact-sub">Abierto a roles de robótica, backend e ingeniería de sistemas autónomos.</p>
+    <div class="contact-links">
+      <a href="mailto:daviddurante2813@gmail.com" class="btn btn-primary">✉️ daviddurante2813@gmail.com</a>
+      <a href="tel:+573042715131" class="btn btn-ghost">📱 +57 304 271 5131</a>
+    </div>
+    <div class="social-links">
+      <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="#" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>Diseñado y construido por David Salazar Durante · Medellín, Colombia</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
